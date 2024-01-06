@@ -5,8 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light': '#F0E7DB',
+        'extraLight': '#FFF8E6',
+        'darknav': '#242f42',
+      },
+      screens: {
+        '3xl': '1700px',
+      },
+    },
   },
+  darkMode: 'class',
   plugins: [],
 }
-
